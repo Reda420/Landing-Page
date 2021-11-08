@@ -1,0 +1,333 @@
+*{
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+nav{
+    position: relative;
+    width: 100% ;
+    height: 100px;
+}
+
+
+#container{
+    display: grid;
+    grid-template-areas: "nav"
+    "head"
+    "main"
+    "ftr";
+}
+
+#logo{
+    position: relative;
+    width: 200px;
+    padding: 10px;cursor: pointer;
+}
+
+
+header{
+    position: relative;
+}
+
+#mpc{
+    width: 100%;
+}
+
+input{    
+    margin-left: 160px;     
+    width: 750px;     
+    height:50px;     
+    border: solid #c5c3c2 1px;     
+    border-radius: 7px;     
+    background-color:#bdbbba ;     
+    padding: 9px;     
+    position: relative;     
+    bottom: 500px;   
+    left: 60px;  
+    opacity: 60%;
+}
+
+#des{
+    position: relative;
+    font-family: gabriola;
+    font-size: 30px;
+    padding-left: 45px;
+
+}
+
+#map{     
+    width: 50px;     
+    height: 35px;     
+    position: relative;     
+    bottom: 485px;
+    right: 930px;
+    margin-left: 170px;    
+    color: rgb(243, 232, 232);    
+    opacity: 30%;    
+    padding: 5px;
+}
+
+nav ul{
+    right: 35%;
+    color: #FFFFFF;    
+    position: relative;
+    margin-left: 550px;
+    right: 20%;
+    bottom: 10px ;
+ }
+
+ nav ul a{
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 9px
+    
+ }
+
+ nav li{
+    font-family: gabriola;
+    font-size: 30px;
+    color: #ffffff;
+    display: inline-block;
+    margin-right: 50px;
+    padding-left: 20px;
+    position: relative;
+    bottom: 38Px;
+    right: -80px;
+    
+}
+
+#login{
+    height: 45px;width: 170px;
+    border-radius: 20px;
+    background:#ffffff;
+    color: #81B4FF;
+    border-style: solid; 
+    border-color: #81B4FF;
+    margin-right: 70px;
+    font-weight: 100;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+#button{
+    text-align: right;
+    position: relative;
+    bottom: 120px;
+}
+
+#pics{
+    display: flex;
+    flex: 50%;
+    margin: 5px;
+}
+
+h4{
+   font-size: 20px;
+   color: #4E4E4E;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-weight: 200;
+}
+
+#maldives{
+    position: relative;
+    cursor: pointer;
+    width: 320px;
+    height: 320px;
+    border-radius: 15px;
+    left: 15px;
+}
+#maldives:hover {
+    opacity: 0.8;}
+
+#finlande{
+    margin-left: 110px;
+    width: 320px;
+    height: 320px;
+    border-radius: 15px;
+    cursor: pointer;
+    
+}
+#finlande:hover {
+    opacity: 0.8;
+}
+#thai{
+    margin-left: 160px;
+    width: 320px;
+    height: 320px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+#thai:hover {
+    opacity: 0.8;
+}
+#mld {
+    position: relative;
+    left: 60px;
+}
+#tha {
+    position: relative;
+    left: 220px;
+}
+#fnl{
+    position: relative;
+    margin-left: 180px;    
+} 
+
+#acco{
+    margin-bottom:60px;
+    margin-left: 80px;
+}
+
+h1{
+    font-family: gabriola;
+
+}
+
+#see{
+    margin-top: 80px;
+    margin-left: 80px;
+    margin-bottom: 10px;
+
+}
+
+#rev{
+    width: 98%;
+    border-radius: 20px;
+    margin-left: 14px;
+    cursor: pointer;
+}
+
+#emailbox{
+    position: relative;
+    margin-left: -20px;
+    top: 0px;
+    width: 80%;
+    height: 35px;
+    border-radius: 20px;
+    background-color: #c4c4c4;
+
+}
+
+
+
+#register{
+    position: relative;
+    top: 20px;
+    right: -135px;
+    border-radius: 10px;
+    background-color: #777777;
+    border-style: solid;
+    width: 80px;
+    height: 30px;
+    color: white;
+    cursor: pointer;
+
+
+}
+
+
+#footercon{
+    display: flex;
+    margin: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+footer{
+    background-color: #484848;
+    color: #FFFFFF;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.footertitle{
+    text-decoration: underline;
+    text-underline-offset: 15px;
+    margin-bottom: 50px;
+}
+
+.footerp{
+
+    margin-bottom: 25px;
+}
+
+
+#footer1{
+    margin: 10px;
+    margin-left: 30px;
+
+}
+
+#footer2{
+    margin: 10px;
+    margin-left: 200px;
+    
+}
+
+#footer3{
+    margin: 10px;
+    margin-left: 80px
+}
+.burder{
+    
+
+}
+@media all and (max-width:480px ) {
+ 
+    .list{
+        display: none;
+    }
+    #button{
+        display: none;
+    }
+    #acco{
+        text-align: center;
+        font-size: 40px;
+    }
+    #see{
+        text-align: center;
+        font-size: 40px;
+    }
+    #maldives{
+        flex: 50%;
+        margin: 15px;
+        width: 450px;
+        height: 300px;
+
+    }
+    #mld{
+    font-size: 20px;
+    margin-left: 90px;
+    } 
+   
+    #thai{
+        flex: 50%;
+        margin: 15px;
+        width: 450px;
+        height: 300px;
+        text-align: center;
+        position: relative;
+        
+    }
+    #tha{
+            position: static;
+            margin-left :200px
+    }
+    #finlande{
+   margin-left: 250px;
+   width: 450px;
+   height:300px;
+   margin-top: 10px;
+   
+    }
+    #fnl{
+        
+       
+    } 
+    
+     #pics {
+        
+        /* display: grid;
+        grid-template-columns: 50% 50%; */
+    } 
+}
